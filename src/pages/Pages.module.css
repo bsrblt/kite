@@ -1,0 +1,850 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: right;
+  padding: 0px;
+  width: 35rem;
+  height: 16.5rem;
+  margin: 17px;
+  margin-top: 25px;
+  border: 5px solid rgb(47, 170, 208);
+  border-radius: 15px;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  background-image: url(C:\Users\Gwann\Desktop\dev\projects\React\a1\src\assets\core-merkenpage-880-300.jpg);
+  background-position-x: -91px;
+  /* animation: anim 0.5s linear; */
+  box-shadow: 0 2px 12px rgb(0, 45, 16);
+}
+.container:hover {
+  box-shadow: 0 2px 22px rgb(0, 255, 213);
+}
+.loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: right;
+  padding: 0px;
+  width: 35rem;
+  height: 16.5rem;
+  max-height: 16.5rem;
+  margin: 17px;
+  margin-top: 25px;
+  border: 5px solid rgb(47, 170, 208);
+  border-radius: 15px;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: multiply;
+  background-image: url(C:\Users\Gwann\Desktop\dev\projects\React\a1\src\assets\pumping-kite.jpg);
+  /* background-position-x: -91px; */
+  background-position-y: -41px;
+  background-repeat: no-repeat;
+  /* animation: anim 0.5s linear; */
+  box-shadow: 0 2px 12px rgb(0, 45, 16);
+}
+.errorPageMsg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: right;
+  padding: 0px;
+  width: 35rem;
+  height: 16.5rem;
+  margin: 17px;
+  margin-top: 25px;
+  border: 5px solid rgba(208, 47, 47, 0.751);
+  border-radius: 15px;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+  background-image: url(C:\Users\Gwann\Desktop\dev\projects\React\a1\src\assets\kitecrash.jpg);
+  background-position-x: -91px;
+  animation: anim 0.5s linear;
+  box-shadow: 0 2px 12px rgb(0, 45, 16);
+}
+.details {
+  display: grid;
+  position: relative;
+  right: -8rem;
+  line-height: 3rem;
+  justify-content: right;
+}
+.userdetails {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  right: 0rem;
+  line-height: 2rem;
+  color: rgb(0, 9, 9);
+  /* background-color: rgba(0, 0, 0, 0.233); */
+  border-radius: 11px;
+  margin: 1rem;
+  /* padding: 2rem; */
+}
+.recorddetails {
+  display: grid;
+  position: relative;
+  right: -8rem;
+  line-height: 3rem;
+  justify-content: right;
+  font-size: 2rem;
+}
+.likeandcomment {
+  display: grid;
+  position: relative;
+  top: 2rem;
+  width: 3rem;
+  height: 0;
+  right: -1.8rem;
+  animation: anim 0.5s linear;
+}
+.likeandcommentSD {
+  display: grid;
+  position: relative;
+  top: 2rem;
+  width: 3rem;
+  height: 0;
+  right: 15rem;
+  animation: anim 0.5s linear;
+}
+.commentform {
+  display: grid;
+  justify-content: left;
+  align-items: baseline;
+  justify-items: end;
+  width: 35rem;
+  border: 5px solid rgba(121, 199, 199, 0.856);
+  border-radius: 7px;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.712);
+  background-blend-mode: lighten;
+  background-image: url(C:\Users\Gwann\Desktop\dev\projects\React\a1\src\assets\core-merkenpage-880-300.jpg);
+  background-position-x: -91px;
+  animation: anim 0.5s linear;
+  box-shadow: 0 2px 12px rgb(0, 45, 16);
+  opacity: 0.95;
+  margin: 1rem;
+}
+.commenttextarea {
+  width: 34.38rem;
+  max-width: 34.38rem;
+  min-height: 4rem;
+  min-width: 300px;
+  height: 3rem;
+  font-size: 1.15rem;
+  border-radius: 7px;
+  background-color: rgb(188, 213, 216);
+}
+.submitcommentbutton {
+  display: flex;
+  position: relative;
+  right: -0.25rem;
+  margin: -0.3rem;
+}
+.comments {
+  display: flex;
+  margin-top: 0.35rem;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  width: 35rem;
+  height: auto;
+  border: 5px solid rgba(121, 199, 199, 0.856);
+  border-radius: 7px;
+  background-color: rgb(188, 213, 216);
+  background-blend-mode: lighten;
+  animation: anim 0.5s linear;
+  box-shadow: 0 2px 12px rgb(0, 45, 16);
+  opacity: 0.88;
+  /* margin: 1rem; */
+}
+.delcommentbutton {
+  display: contents;
+  position: relative;
+  bottom: 8rem;
+  margin: 0.3rem;
+  width: 20px;
+}
+
+.delcommentbutton {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border-color: transparent;
+  background-color: transparent;
+  color: rgb(54, 4, 4);
+  width: 4.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 3px;
+  margin-bottom: -0.2rem;
+  height: 1.8rem;
+  line-height: 1.45;
+  bottom: 0.2rem;
+}
+.delcommentbutton:hover {
+  background-color: rgb(255, 199, 196);
+  border-radius: 5px;
+}
+.spotTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+.gmap {
+  /* border: 5px solid rgb(255, 255, 255); */
+  border-radius: 11px;
+  /* box-shadow: 0 2px 12px rgba(135, 245, 225, 0.537); */
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.gmap iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* .replycommentbutton {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border-color: transparent;
+  background-color: transparent;
+  color: rgb(54, 4, 4);
+  width: 4.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+  height: 1.8rem;
+  line-height: 1.45;
+  bottom: 0.2rem;
+}
+.replycommentbutton:hover {
+  background-color: rgb(17, 221, 211);
+  border-radius: 5px;
+} */
+h5 {
+  background-color: rgba(71, 214, 209, 0.504);
+  border-radius: 11px;
+  padding: 1rem;
+  line-height: 2.25rem;
+  margin: 0;
+}
+article {
+  /* max-width: 35rem; */
+  color: rgb(0, 103, 103);
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+.commentAuthor {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+@media (max-width: 624px) {
+  .container,
+  .loading {
+    width: 480px;
+  }
+  .likeandcommentSD {
+    right: 12.8rem;
+  }
+  .commentform {
+    width: 480px;
+  }
+  .commenttextarea {
+    width: 470px;
+  }
+
+  .comments {
+    width: 480px;
+  }
+  .delcommentbutton {
+    display: contents;
+    width: 20px;
+  }
+  .errorPageMsg {
+    text-align: right;
+    padding: 0px;
+    width: 29.35rem;
+  }
+}
+h5 {
+  background-color: rgba(71, 214, 209, 0.504);
+  padding: 0rem;
+  /* line-height: 1rem; */
+  margin: 0;
+}
+@media (max-width: 564px) {
+  .container,
+  .loading {
+    width: 535px;
+  }
+  .likeandcomment {
+    display: grid;
+    position: relative;
+    top: 2.5rem;
+    width: 3rem;
+    height: 1rem;
+    position: relative;
+    right: -0.5rem;
+  }
+  .commentform {
+    width: 444px;
+  }
+  .commenttextarea {
+    width: 434px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.135rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 444px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+    opacity: 0.88;
+    margin: 1rem;
+  }
+  .delcommentbutton {
+    display: contents;
+    width: 20px;
+  }
+  .likeandcommentSD {
+    right: 11.5rem;
+  }
+  .recorddetails {
+    display: grid;
+    position: relative;
+    right: -8rem;
+    line-height: 3rem;
+    justify-content: right;
+    font-size: 2rem;
+  }
+  .userdetails {
+    line-height: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .errorPageMsg {
+    text-align: right;
+    padding: 0px;
+    width: 29.35rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .container,
+  .loading {
+    width: 515px;
+  }
+  .likeandcomment {
+    display: grid;
+    position: relative;
+    top: 2.5rem;
+    width: 3rem;
+    height: 1rem;
+    position: relative;
+    right: -0.5rem;
+  }
+  .commentform {
+    width: 440px;
+  }
+  .commenttextarea {
+    width: 430px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.135rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 441px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+    opacity: 0.88;
+    margin: 1rem;
+  }
+  .delcommentbutton {
+    display: contents;
+    width: 20px;
+  }
+  .recorddetails {
+    display: grid;
+    position: relative;
+    right: -8rem;
+    line-height: 3rem;
+    justify-content: right;
+    font-size: 2rem;
+  }
+  .userdetails {
+    line-height: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .likeandcommentSD {
+    right: 11.5rem;
+  }
+}
+@media (max-width: 520px) {
+  .container,
+  .loading {
+    width: 440px;
+  }
+  .likeandcomment {
+    display: grid;
+    position: relative;
+    top: 2.5rem;
+    width: 3rem;
+    height: 1rem;
+    position: relative;
+    right: -0.5rem;
+  }
+  .likeandcommentSD {
+    right: 11.11rem;
+  }
+  .commentform {
+    width: 423px;
+  }
+  .commenttextarea {
+    width: 413px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.2rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 423px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+    opacity: 0.88;
+    margin: 1rem;
+    font-size: 0.8remrem;
+  }
+  .delcommentbutton {
+    display: contents;
+    width: 20px;
+  }
+  .recorddetails {
+    display: grid;
+    position: relative;
+    right: -8rem;
+    line-height: 3rem;
+    justify-content: right;
+    font-size: 2rem;
+  }
+  .userdetails {
+    line-height: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .errorPageMsg {
+    padding: 0px;
+    width: 26rem;
+  }
+}
+@media (max-width: 440px) {
+  .container,
+  .loading {
+    width: 400px;
+    height: 11.5rem;
+  }
+
+  .likeandcommentSD {
+    right: 10.5rem;
+  }
+  .commentform {
+    width: 400px;
+  }
+  .commenttextarea {
+    width: 391.5px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.12rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 400px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .errorPageMsg {
+    padding: 0px;
+    width: 24.75rem;
+  }
+}
+@media (max-width: 420px) {
+  .container,
+  .loading {
+    width: 400px;
+    height: 11.5rem;
+  }
+  .likeandcomment {
+    display: grid;
+    position: relative;
+    top: 2.5rem;
+    width: 3rem;
+    height: 1rem;
+    position: relative;
+    right: -0.5rem;
+  }
+  .likeandcommentSD {
+    right: 10.5rem;
+  }
+  .commentform {
+    width: 400px;
+  }
+  .commenttextarea {
+    width: 391.5px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.12rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 400px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+}
+@media (max-width: 402px) {
+  .container,
+  .loading {
+    width: 385px;
+    height: 11.5rem;
+  }
+  .details {
+    display: grid;
+    position: relative;
+    right: -6rem;
+    line-height: 3rem;
+    justify-content: right;
+  }
+  .userdetails {
+    line-height: 2.85rem;
+    font-size: 1.75rem;
+    padding: 0.3rem;
+  }
+  .likeandcommentSD {
+    right: 9.5rem;
+  }
+  .commentform {
+    width: 370px;
+  }
+  .commenttextarea {
+    width: 360px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.125rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 370px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .commentAuthor {
+    font-size: 1.1rem;
+  }
+  article {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 376px) {
+  .container,
+  .loading {
+    text-align: right;
+    padding: 0px;
+    width: 335px;
+    height: 11.5rem;
+    margin: 2px;
+    margin-top: 25px;
+  }
+  .likeandcommentSD {
+    right: 8.5rem;
+  }
+  .commentform {
+    width: 330px;
+  }
+  .commenttextarea {
+    width: 320px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.12rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 335px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .recorddetails {
+    display: grid;
+    position: relative;
+    right: -6rem;
+    line-height: 2.5rem;
+    justify-content: right;
+    font-size: 1.5rem;
+  }
+  .errorPageMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 0px;
+    width: 325px;
+    height: 11.5rem;
+    margin: 2px;
+    margin-top: 25px;
+    border: 5px solid rgba(208, 47, 47, 0.751);
+    border-radius: 15px;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+    background-image: url(C:\Users\Gwann\Desktop\dev\projects\React\a1\src\assets\kitecrash.jpg);
+    background-position-x: -91px;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .details {
+    display: grid;
+    position: relative;
+    right: -4rem;
+    line-height: 2.5rem;
+    justify-content: right;
+  }
+  .userdetails {
+    line-height: 2.85rem;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+  }
+}
+@media (max-width: 333px) {
+  .container,
+  .loading {
+    text-align: right;
+    padding: 0px;
+    width: 315px;
+    height: 11.5rem;
+    margin: 2px;
+    margin-top: 25px;
+  }
+  .likeandcommentSD {
+    right: 8rem;
+  }
+  .commentform {
+    width: 315px;
+  }
+  .commenttextarea {
+    width: 305px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.12rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 315px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .recorddetails {
+    display: grid;
+    position: relative;
+    right: -6rem;
+    line-height: 2.5rem;
+    justify-content: right;
+    font-size: 1.5rem;
+  }
+  .errorPageMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 0px;
+    width: 335px;
+    height: 11.5rem;
+    margin: 2px;
+    margin-top: 25px;
+    border: 5px solid rgba(208, 47, 47, 0.751);
+    border-radius: 15px;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+    background-image: url(C:\Users\Gwann\Desktop\dev\projects\React\a1\src\assets\kitecrash.jpg);
+    background-position-x: -91px;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .details {
+    display: grid;
+    position: relative;
+    right: -4rem;
+    line-height: 2.5rem;
+    justify-content: right;
+  }
+  .userdetails {
+    line-height: 2.85rem;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+  }
+}
+@media (max-width: 325px) {
+  .container,
+  .loading {
+    text-align: right;
+    padding: 0px;
+    width: 317px;
+    height: 11.5rem;
+    margin: 2px;
+    margin-top: 25px;
+  }
+  .likeandcommentSD {
+    right: 8rem;
+  }
+  .commentform {
+    width: 317px;
+  }
+  .commenttextarea {
+    width: 308px;
+  }
+  .submitcommentbutton {
+    display: flex;
+    position: relative;
+    right: -0.12rem;
+    margin: -0.3rem;
+  }
+  .comments {
+    width: 317px;
+    height: auto;
+    border: 5px solid rgba(121, 199, 199, 0.856);
+    border-radius: 7px;
+    background-color: rgb(188, 213, 216);
+    background-blend-mode: lighten;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .recorddetails {
+    display: grid;
+    position: relative;
+    right: -6rem;
+    line-height: 2.5rem;
+    justify-content: right;
+    font-size: 1.5rem;
+  }
+  .errorPageMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 0px;
+    width: 315px;
+    height: 11.5rem;
+    margin: 2px;
+    margin-top: 25px;
+    border: 5px solid rgba(208, 47, 47, 0.751);
+    border-radius: 15px;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+    background-image: url(C:\Users\Gwann\Desktop\dev\projects\React\a1\src\assets\kitecrash.jpg);
+    background-position-x: -91px;
+    animation: anim 0.5s linear;
+    box-shadow: 0 2px 12px rgb(0, 45, 16);
+  }
+  .details {
+    display: grid;
+    position: relative;
+    right: -4rem;
+    line-height: 2.5rem;
+    justify-content: right;
+  }
+  .userdetails {
+    line-height: 2.85rem;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+  }
+}
+
+.dark {
+  border: 5px solid rgb(7, 65, 65);
+}
+.dark:not(.comments) {
+  border-radius: 15px;
+  background-size: cover;
+  background-color: rgba(46, 4, 4, 0.099);
+  background-blend-mode: multiply;
+  color: rgb(17, 36, 31);
+}

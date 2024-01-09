@@ -1,0 +1,156 @@
+.usermenuContainer {
+  display: contents;
+}
+.usermenuMainDiv {
+  border: 1px solid darkcyan;
+  border-radius: 0px 0px 0px 22px;
+  background-color: darkcyan;
+  padding: 0.5rem;
+  position: absolute;
+  justify-content: center;
+  width: 10rem;
+  align-items: center;
+  top: 3.85rem;
+  right: 0rem;
+  animation: anim 0.3s linear;
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.usermenuName {
+  display: flex;
+  position: relative;
+  margin-bottom: 1.85rem;
+  top: -0.38rem;
+  right: -0.5rem;
+  justify-content: right;
+  margin-right: 0.9rem;
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #000000;
+  line-height: 1rem;
+  border: 1px solid transparent;
+}
+/* .usermenuName:hover {
+  animation: anim2 0.5s forwards;
+} */
+.menuitem {
+  display: grid;
+  justify-content: right;
+  margin: 0.5rem;
+  margin-bottom: 0.85rem;
+  padding: 0.1rem;
+  width: 8rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1f1f1fc0;
+  line-height: 1.5rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.menuitem:hover {
+  color: darkcyan;
+  cursor: pointer;
+  border-radius: 5px;
+  transform: scale(1.025);
+  animation: anim3 0.35s forwards;
+}
+.langSelection {
+  display: flex;
+  position: relative;
+  top: -1rem;
+  margin-top: -2rem;
+  margin-bottom: -1.75rem;
+  margin-right: 0.5rem;
+  justify-content: right;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1f1f1fc0;
+  animation: anim4 0.5s linear;
+  background-color: #31302e;
+}
+
+.langSelection:hover {
+  animation: anim4 0.5s linear;
+}
+.darkthemeswitch {
+  position: absolute;
+  top: 11.3rem;
+  right: 6.8rem;
+  width: 4.7rem;
+  margin: 0;
+  padding: 0;
+  line-height: 0.1rem;
+  height: 1rem;
+  border: 0;
+}
+@media (hover: none) {
+  .langSelection {
+    margin-right: 0.25rem;
+    background-color: darkcyan;
+    opacity: 1;
+  }
+}
+@keyframes anim2 {
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: rgb(21, 218, 198);
+  }
+}
+
+@keyframes anim3 {
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: rgb(25, 193, 176);
+  }
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #31302e;
+  }
+}
+@keyframes anim4 {
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: rgb(25, 193, 176);
+  }
+}
+.dark {
+  background-color: #31302e;
+  color: rgb(25, 193, 176);
+  border: 1px solid #31302e;
+}
+
+@keyframes anim3dark {
+  0% {
+    color: rgb(25, 193, 176);
+  }
+  100% {
+    color: #000000;
+  }
+  0% {
+    background-color: #31302e;
+  }
+  100% {
+    background-color: darkcyan;
+  }
+}
+/* .usermenuName:not(.dark):hover {
+  animation: anim3dark 0.35s forwards;
+} */
+.dark:not(.usermenuMainDiv):hover {
+  animation: anim3dark 0.35s forwards;
+}

@@ -1,0 +1,44 @@
+.regular {
+  width: 158px;
+  height: 1.44rem;
+  margin: 0.58rem;
+  border-radius: 5px;
+  border-color: rgb(165, 180, 193);
+}
+.invalid {
+  background-color: rgb(247, 187, 187);
+}
+::placeholder {
+  color: rgba(61, 164, 172, 0.925);
+  opacity: 1; /* Firefox */
+}
+@media (max-width: 564px) {
+  .regular {
+    width: 140px;
+    height: 1.44rem;
+    margin: 0.58rem;
+    border-radius: 5px;
+    border-color: rgb(165, 180, 193);
+  }
+  .invalid {
+    background-color: rgb(247, 187, 187);
+  }
+}
+@media (max-width: 440px) {
+  .regular {
+    width: 129px;
+    height: 1.44rem;
+    margin: 0.58rem;
+    border-radius: 5px;
+    border-color: rgb(165, 180, 193);
+  }
+  .invalid {
+    background-color: rgb(247, 187, 187);
+  }
+}
+.dark {
+  /* border: solid rgba(10, 60, 60, 0.82) 5px; */
+  background-color: rgba(150, 164, 170, 0.521);
+  color: rgb(214, 216, 218);
+  /* box-shadow: 0 2px 11px rgba(9, 68, 68, 0.794); */
+}

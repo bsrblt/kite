@@ -1,0 +1,59 @@
+.authbutton {
+  width: 161px;
+  line-height: 24px;
+  margin: 0.5rem;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 0.61rem;
+  margin-top: 0.57rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #034940e8;
+  font-weight: 600;
+
+  background-color: #07f7d779;
+}
+.authbutton:hover {
+  animation: anim 0.25s linear;
+  background-color: #15e3c8;
+  color: rgb(6, 42, 42);
+  cursor: pointer;
+}
+.authbutton:disabled {
+  color: #ffffff;
+  font-weight: 800;
+  cursor: not-allowed;
+}
+/* 
+@media (max-width: 925px) {
+  .authbutton {
+    max-width: 159px;
+  }
+  .authbutton:disabled {
+    color: #ffffff;
+    font-weight: 700;
+    cursor: not-allowed;
+  }
+}
+@media (max-width: 564px) {
+  .authbutton {
+    max-width: 140px;
+    line-height: 20px;
+  }
+  .authbutton:disabled {
+    color: #ffffff;
+    font-weight: 00;
+    cursor: not-allowed;
+  }
+}
+@media (max-width: 440px) {
+  .authbutton {
+    max-width: 129px;
+    line-height: 20px;
+  }
+  .authbutton:disabled {
+    color: #ffffff;
+    font-weight: 00;
+    cursor: not-allowed;
+  }
+} */

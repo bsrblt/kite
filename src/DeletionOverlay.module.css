@@ -1,0 +1,126 @@
+.delConfirm {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  align-items: flex-start;
+  animation: anim 0.5s linear;
+  line-height: 32px;
+  font-size: 0.85rem;
+  left: 2rem;
+  bottom: 1rem;
+}
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.confButton {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border-color: transparent;
+  background-color: transparent;
+  color: rgb(54, 4, 4);
+  width: 4.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+  height: 1.8rem;
+  line-height: 1.45;
+  bottom: 0.2rem;
+}
+.confButton:hover {
+  background-color: rgb(255, 199, 196);
+  border-radius: 5px;
+}
+
+.cancelButton {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border-color: transparent;
+  background-color: transparent;
+  color: rgb(3, 42, 7);
+  width: 4.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+  height: 1.8rem;
+  line-height: 1.45;
+  margin-bottom: 0.1rem;
+}
+.cancelButton:hover {
+  background-color: rgb(180, 231, 198);
+  border-radius: 5px;
+}
+.warnText {
+  display: contents;
+  margin: 0.4rem;
+  font-weight: bold;
+  width: 5rem;
+  font-size: 1rem;
+  /* line-height: 0; */
+  color: rgb(206, 63, 63);
+  background-color: antiquewhite;
+}
+@media (hover: none) {
+  .delConfirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    animation: anim 0.5s linear;
+    line-height: 32px;
+    font-size: 0.85rem;
+    left: 1rem;
+  }
+  .headertext {
+    text-align: right;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .confButton {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    border-color: rgb(255, 199, 196);
+    background-color: rgb(255, 199, 196);
+    color: rgb(36, 32, 32);
+    min-width: 3.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+    height: 1.5rem;
+    bottom: 0.2rem;
+  }
+  .cancelButton {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-color: rgb(180, 231, 198);
+    border-radius: 5px;
+    background-color: rgb(180, 231, 198);
+    color: rgb(36, 32, 32);
+    min-width: 3.5rem;
+    font-size: 1rem;
+    border: 0;
+    cursor: pointer;
+    margin: 5px;
+    height: 1.8rem;
+    line-height: 1.45;
+    margin-bottom: 0.1rem;
+  }
+  .warnText {
+    margin: 0.4rem;
+    font-weight: bold;
+    font-size: 1rem;
+    /* line-height: 0; */
+    color: rgb(206, 63, 63);
+    /* background-color: antiquewhite; */
+  }
+}

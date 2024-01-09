@@ -1,0 +1,298 @@
+.loginform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.userMsgText {
+  display: grid;
+  justify-content: center;
+  justify-items: start;
+  align-items: center;
+}
+.plsloginmsgText {
+  display: contents;
+  animation: anim 0.75s linear;
+  font-size: 1.45rem;
+  width: 70rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.langselectModal {
+  position: relative;
+  animation: anim 2s linear;
+  top: -0.15rem;
+  left: -0.1rem;
+}
+.loginDiv {
+  animation: anim 1.5s linear;
+}
+@media (max-width: 376px) {
+  @keyframes animheight2 {
+    0% {
+      height: auto;
+    }
+    100% {
+      height: 19.23rem;
+    }
+  }
+}
+@keyframes animheight {
+  0% {
+    height: auto;
+  }
+  100% {
+    height: 7.5rem;
+  }
+}
+.authSection {
+  display: grid;
+  /* max-width: 100px; */
+  justify-content: space-between;
+  align-items: center;
+  animation: anim 0.5s linear;
+  margin-right: 1rem;
+}
+.loginDiv_name_and_pw {
+  margin: -1rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.loggedInUsername {
+  font-weight: 300;
+  font-size: 1rem;
+  float: left;
+  animation: anim 0.5s linear;
+}
+.pwLabel {
+  margin-top: 0.6rem;
+  font-weight: 400;
+  float: left;
+}
+.usernameInput,
+.pwInput,
+.mailInput {
+  margin: 1.5rem;
+  width: 10rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  border: 1px solid silver;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+.pwError {
+  animation: anim 0.25s linear;
+  color: rgb(142, 35, 35);
+}
+span {
+  color: #07f7d7;
+  cursor: pointer;
+}
+.newUserMsg {
+  position: fixed;
+  top: 120px;
+  right: 240px;
+  color: rgb(142, 35, 35);
+}
+.memberText {
+  display: inline;
+  position: relative;
+  top: 0.17rem;
+  font-size: 0.9rem;
+}
+.errorMsgBox {
+  display: grid;
+  align-items: baseline;
+  position: absolute;
+  top: 3.35rem;
+  right: 0.5rem;
+  width: 100px;
+  line-height: 15px;
+}
+.inputerrormsg {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(142, 35, 35);
+}
+.mailErrormsg {
+  position: relative;
+  top: 1rem;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(142, 35, 35);
+}
+.usernameInputError,
+.pwInputError,
+.mailInputError {
+  margin: 1.5rem;
+  width: 10rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 400;
+  border: 1px solid red;
+  background-color: rgb(220, 170, 170);
+  color: rgb(21, 1, 1);
+}
+.pwForgot {
+  position: absolute;
+  padding: 0.2rem;
+  top: 6.11rem;
+  right: 0.7rem;
+  width: 100px;
+  line-height: 16px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgba(7, 61, 81, 0.737);
+}
+.pwForgot:hover {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #07f7d7;
+  animation: anim 0.35s linear;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.recoverErrormsg {
+  display: grid;
+  position: absolute;
+  width: 6rem;
+  line-height: 0.95;
+  top: 3.5rem;
+  right: 1.5rem;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(142, 35, 35);
+}
+
+@media (max-width: 925px) {
+  .plsloginmsgText {
+    font-weight: 800;
+    animation: anim 0.5s linear;
+    /* font-size: large; */
+    width: 70rem;
+  }
+}
+@media (max-width: 650px) {
+  .plsloginmsgText {
+    font-weight: 800;
+    animation: anim 0.5s linear;
+    font-size: 1.2rem;
+    width: 70rem;
+  }
+}
+@media (max-width: 532px) {
+  .plsloginmsgText {
+    position: fixed;
+    top: 1rem;
+    font-weight: 800;
+    animation: anim 0.5s linear;
+    font-size: 1rem;
+    line-height: 1px;
+  }
+  .userMsgText {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    justify-items: start;
+    align-items: center;
+    left: 0.5rem;
+  }
+  .loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    animation: anim 0.5s linear;
+  }
+  .authSection {
+    display: grid;
+    position: relative;
+    top: 1rem;
+    /* left: -5.55rem; */
+    justify-content: space-between;
+    align-items: center;
+    animation: anim 0.5s linear;
+    margin-right: 1rem;
+  }
+  .errorMsgBox {
+    /* display: contents; */
+    position: absolute;
+    top: 10.5rem;
+    left: 13rem;
+  }
+  .loginDiv {
+    animation: anim 1.5s linear;
+    /* animation: animheight2 11.5s linear; */
+  }
+  .pwForgot {
+    position: relative;
+    padding: 0.2rem;
+    top: -2.67rem;
+    left: 12.5rem;
+    width: 100px;
+    line-height: 16px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #0aeaccea;
+    height: 0px;
+  }
+}
+
+@media (max-width: 376px) {
+  .plsloginmsgText {
+    position: fixed;
+    top: 1rem;
+    font-weight: 800;
+    animation: anim 0.5s linear;
+  }
+  .loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    animation: anim 0.5s linear;
+  }
+  .authSection {
+    display: grid;
+    position: relative;
+    top: 1rem;
+    /* left: -1.1rem; */
+    justify-content: space-between;
+    align-items: center;
+    animation: anim 0.5s linear;
+    margin-right: 1rem;
+  }
+  .errorMsgBox {
+    /* display: contents; */
+    position: absolute;
+    top: 10.5rem;
+    left: 13rem;
+  }
+  .loginDiv {
+    animation: anim 1.5s linear;
+    /* animation: animheight2 11.5s linear; */
+  }
+  .pwForgot {
+    position: relative;
+    padding: 0.2rem;
+    top: -2.67rem;
+    left: 12.5rem;
+    width: 100px;
+    line-height: 16px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #0aeaccea;
+    height: 0px;
+  }
+}

@@ -1,0 +1,13 @@
+.commentbutton {
+  display: inline;
+  position: relative;
+  top: -1.5rem;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  margin: 0.5rem;
+  opacity: 0.75;
+}
+.commentbutton:hover {
+  opacity: 1;
+}
