@@ -1,1 +1,1 @@
-This is my first attempt at creating a website with React, a "kite sessions tracker" listing jump sessions of kitesurfers who logged in and saved their progress on the website. Made with create-react-app, all the jsx and css code is hand-written, as I have no knowledge other than basic JS, CSS, HTML and React as of the publishing date of this site.
+This is my first website with React, a "kite sessions tracker" listing jump sessions of kitesurfers who logged in and saved their progress on the website. Made with create-react-app, all the jsx and css code is hand-written.
